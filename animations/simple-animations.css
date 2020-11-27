@@ -1,0 +1,27 @@
+@keyframes metronome {
+  from {
+    transform: rotate(-45deg);
+  }
+  25% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(45deg);
+  }
+  75% {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-45deg);
+  }
+}
+
+.metronome {
+  background: blue;
+  position: relative;
+  left: 200px;
+  width: 20px;
+  height: 200px;
+  animation: metronome 1s linear;
+  animation-iteration-count: infinite;
+}
