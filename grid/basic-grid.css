@@ -1,0 +1,9 @@
+.basic-grid { /* container */
+  display: grid;
+  gap:1rem; /* sets the gaps between rows and column, shorthand for row-gap and column-gap */
+
+  /* let's create column */
+  /* grid-template-columns: 1fr 2fr 1fr; 1 fractional unit */
+  grid-template-columns: repeat(auto-fill, minmax(240px,1fr));
+
+}
